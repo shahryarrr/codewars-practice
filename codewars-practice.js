@@ -12,3 +12,8 @@ function reverseString(str) {
   return str.split('').reverse().join('');
 }
 
+// write a function that takes a String and returns an Array/list with the length of each word added to each element //
+
+function wordLengths(str) {
+  return str.split(' ').map(word => word.length);
+}
